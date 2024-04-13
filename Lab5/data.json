@@ -1,0 +1,53 @@
+{
+    "familiaProductos": [
+
+        {
+            "id": "1",
+            "nombre": "Agua de Rosas",
+            "imagen": "https://www.drogueriasanjorge.com/wp-content/uploads/2012/04/AGROSAS500ml.jpg",
+            "contenido": "237ml",
+            "precio": "$25.000",
+            "descripcion": "Suaviza e hidrata la piel"
+
+        },
+
+        {
+            "id": "2",
+            "nombre": "Esmalte de uñas",
+            "imagen": "https://belcorpcolombia.vtexassets.com/arquivos/ids/941131/200094826-FotoFondoBlanco.jpg?v=638330988178630000",
+            "contenido": "8ml",
+            "precio": "$7.000",
+            "descripcion": "7 días de máximo color y cuidado"
+        },
+
+        {
+            "id": "3",
+            "nombre": "Shampoo sin sal",
+            "imagen": "https://belcorpcolombia.vtexassets.com/arquivos/ids/941131/200094826-FotoFondoBlanco.jpg?v=638330988178630000",
+            "contenido": "500ml",
+            "precio": "$30.000",
+            "descripcion": "Reconstruye y devuelve el brillo a tu cabello"
+        },
+
+        {
+            "id": "4",
+            "nombre": "Base correctora",
+            "imagen": "https://static.merqueo.com/images/products/large/194ce4cc-cab3-42eb-ae87-71b502f39d23.jpg",
+            "contenido": "3g",
+            "precio": "$9.700",
+            "descripcion": "Humectante y filtro solar"
+  
+        },
+
+        {
+            "id": "5",
+            "nombre": "Delineador negro",
+            "imagen": "https://lh3.googleusercontent.com/LA_Luva49TUL_ijg6ehnOQRqte4hLA6MT-C08SpQWEUQ-0h_Jy0-GLHf85ERgovTRM1vfEwl_oByOF8UhXwAy2M9R8MoJAOimvc",
+            "contenido": "2ml",
+            "precio": "$23.000",
+            "descripcion": "A prueba de agua y punta plumón"
+
+        }
+    
+    ]
+}
