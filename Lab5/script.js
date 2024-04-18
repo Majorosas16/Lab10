@@ -12,8 +12,46 @@ const render =  async () => {
     
         const txt =document.createElement("p");
         txt.innerHTML="Nuestros Productos Estrella"
-        contenedor2.appendChild(txt);
         txt.classList.add("section_title");
+
+        const divContador= document.createElement("div")
+        divContador.classList.add("contador");
+        
+        const btn = document.createElement("button");
+        btn.innerHTML="Carrito de Compras"
+        btn.classList.add("botonContador");
+
+        const btnReinicio = document.createElement("button");
+        btnReinicio.innerHTML="Reiniciar aquí"
+        btnReinicio.classList.add("botonContador");
+
+        const btnText = document.createElement("p");
+        btnText.innerHTML="Haz presionado el carrito 0 veces"
+        btnText.classList.add("textoContador");
+
+        contenedor2.appendChild(txt);
+
+        divContador.appendChild(btn);        
+        divContador.appendChild(btnText);
+        divContador.appendChild(btnReinicio);
+
+
+        contenedor2.appendChild(divContador);
+
+
+
+        let contadorClics = 0;
+
+        btn.addEventListener ("click", function() {
+            contadorClics++;
+            btnText.textContent = `Haz presionado el carrito ${contadorClics} veces`;
+        });
+
+        btnReinicio.addEventListener ("click", function() {
+            contadorClics=0;
+            btnText.textContent = `Haz presionado el carrito ${contadorClics} veces`;
+        });
+
 
     const contenedor = document.querySelector("#us-offer");//SECTION DE LAS PROMOCIONES
     contenedor.classList.add("sect_2");
