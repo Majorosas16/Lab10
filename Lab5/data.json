@@ -23,7 +23,7 @@
         {
             "id": "3",
             "nombre": "Shampoo sin sal",
-            "imagen": "https://belcorpcolombia.vtexassets.com/arquivos/ids/941131/200094826-FotoFondoBlanco.jpg?v=638330988178630000",
+            "imagen": "https://static.merqueo.com/images/products/large/194ce4cc-cab3-42eb-ae87-71b502f39d23.jpg",
             "contenido": "500ml",
             "precio": "$30.000",
             "descripcion": "Reconstruye y devuelve el brillo a tu cabello"
@@ -32,7 +32,7 @@
         {
             "id": "4",
             "nombre": "Base correctora",
-            "imagen": "https://static.merqueo.com/images/products/large/194ce4cc-cab3-42eb-ae87-71b502f39d23.jpg",
+            "imagen": "https://lh3.googleusercontent.com/LA_Luva49TUL_ijg6ehnOQRqte4hLA6MT-C08SpQWEUQ-0h_Jy0-GLHf85ERgovTRM1vfEwl_oByOF8UhXwAy2M9R8MoJAOimvc",
             "contenido": "3g",
             "precio": "$9.700",
             "descripcion": "Humectante y filtro solar"
@@ -42,7 +42,7 @@
         {
             "id": "5",
             "nombre": "Delineador negro",
-            "imagen": "https://lh3.googleusercontent.com/LA_Luva49TUL_ijg6ehnOQRqte4hLA6MT-C08SpQWEUQ-0h_Jy0-GLHf85ERgovTRM1vfEwl_oByOF8UhXwAy2M9R8MoJAOimvc",
+            "imagen": "https://www.sibory.com/wp-content/uploads/2022/07/delineador-de-ojos-montoc-3-1-1.jpeg",
             "contenido": "2ml",
             "precio": "$23.000",
             "descripcion": "A prueba de agua y punta plumón"
