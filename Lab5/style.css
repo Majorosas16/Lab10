@@ -198,10 +198,19 @@ transition: all 800ms ease;
 
 /*las promociones*/
 
+.sect_22{ /*Ya*/
+    width: 100%;
+    background-color: rgb(251, 228, 248);
+    padding: 90px;
+
+    }
+
+
 .sect_2{ /*Ya*/
-width: 100%;
+width: 100vw;
+height: 60vh;
 background-color: rgb(251, 228, 248);
-padding: 100px 0;
+display: flex;
 }
 
 .section_title{ /*ya*/
@@ -210,6 +219,9 @@ font-weight: bold;
 color: rgb(107, 9, 30);
 padding-bottom: 40px;
 text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 .us-offer{ /*ya*/
@@ -218,14 +230,14 @@ padding: 0 25px;
 }
 
 .offer{ /*ya*/
-width: 40%;
+width: 80%;
 margin: 0 25px;
 
 }
 
 .offer-img{ /*ya*/
-
-height: 500px;
+/* width: 50%; */
+height: 300px;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -260,8 +272,10 @@ justify-content: space-between;
 }
 
 .price-price1 { /*ya*/
-    font-size: 20px;
+    font-size: 18px;
     color: rgb(107, 9, 30);
+    display: flex;
+    align-items: center;
 }
 
 .price-price2{ /*ya*/

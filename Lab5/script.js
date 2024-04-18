@@ -5,14 +5,18 @@ const render =  async () => {
     const respuesta = await cargaInformacion();
     console.log(respuesta);
 
+        //EL TÍTULO DE "NUESTROS PRODUCTOS ESTRELLA"
+        const contenedor2 = document.querySelector("#us-offer2");//SECTION DE LAS PROMOCIONES
+        contenedor2.classList.add("sect_22");
+
+    
+        const txt =document.createElement("p");
+        txt.innerHTML="Nuestros Productos Estrella"
+        contenedor2.appendChild(txt);
+        txt.classList.add("section_title");
+
     const contenedor = document.querySelector("#us-offer");//SECTION DE LAS PROMOCIONES
     contenedor.classList.add("sect_2");
-
-    //EL TÍTULO DE "NUESTROS PRODUCTOS ESTRELLA"
-    const txt =document.createElement("p");
-    txt.innerHTML="Nuestros Productos Estrella"
-    contenedor.appendChild(txt);
-    txt.classList.add("section_title");
 
     //AHORA VIENEN LAS IMAGENES
     for (const producto of respuesta.familiaProductos){
@@ -69,15 +73,14 @@ const render =  async () => {
         parteAbajo.appendChild(detalles);
 
 
-
         eachTarjeta.classList.add("offer");
         img.classList.add("offer-img");
 
 //AGREGO TODO AQUÍ
-        tarjeta.appendChild(divImagen);
-        tarjeta.appendChild(parteAbajo);
-        eachTarjeta.appendChild(tarjeta);
-        contenedor.appendChild(eachTarjeta);
+        eachTarjeta.appendChild(divImagen);
+        eachTarjeta.appendChild(parteAbajo);
+        tarjeta.appendChild(eachTarjeta);
+        contenedor.appendChild(tarjeta);
 
     }
 
